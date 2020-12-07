@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "downlevelIteration": true,
+      "noImplicitAny": false,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "jsx": "preserve",
+      "lib": [
+        "esnext"
+      ],
+      "resolveJsonModule": true,
+      "allowJs": true,
+      "module": "esnext",
+      "target": "esnext",
+      "moduleResolution": "node",
+      "outDir": ".dist",
+      "sourceMap": true,
+      "strict": true,
+    },
+    "exclude": [
+      "node_modules",
+      ".dist",
+      "lib"
+    ]
+  }
